@@ -63,17 +63,6 @@
         .button:active {
             transform: scale(0.95);
         }
-        .footer {
-            width: 100%;
-            background-color: #34495e;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            font-size: 14px;
-        }
         .social-links a {
             display: inline-block;
             margin: 0 10px;
@@ -91,6 +80,26 @@
                 opacity: 1;
                 transform: translateY(0);
             }
+        }
+        .footer {
+            width: 100%;
+            background-color: #34495e;
+            color: #ecf0f1; /* Світліший колір для кращого контрасту */
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            font-size: 14px;
+        }
+        
+        .footer a {
+            color: inherit; /* Зберігає колір тексту */
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
