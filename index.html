@@ -6,16 +6,54 @@
     <title>Anumag</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: #f4f7fa;
             text-align: center;
-            padding: 50px;
+            padding: 100px 20px;
+            margin: 0;
         }
-        h1 { color: #333; }
-        p { color: #666; }
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .wrapper {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
     </style>
 </head>
 <body>
-    <h1>Ласкаво просимо на Anumag!</h1>
-    <p>Сайт у розробці, повертайтеся пізніше.</p>
+    <div class="wrapper">
+        <h1>Ласкаво просимо на Anumag!</h1>
+        <p>Сайт у розробці, повертайтеся пізніше.</p>
+        <a href="#" class="button">Повернутися на головну</a>
+    </div>
 </body>
 </html>
